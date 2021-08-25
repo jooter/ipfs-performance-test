@@ -7,8 +7,7 @@ Simple IPFS performance test
 
 ## Start IPFS daemon
 ```shell
-ipfs init || true
-ipfs daemon
+ipfs daemon --init
 ```
 
 ## Build and test
